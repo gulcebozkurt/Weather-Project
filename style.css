@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.btnDiv, .form{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: #8784847c;
+    color: #fff;
+    cursor: pointer;
+    padding: 3px;
+    margin-bottom: 50px;
+    outline: none;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: .3s;
+    scale: 1.03;
+    background: rgba(234, 221, 205, 0.547);
+    color: rgb(35, 33, 33);
+}
+
+.inputText{
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(42, 38, 58);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info{
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+}
+
+.info > p{
+    margin-top: 10px;
+}
+
+.temp{
+    font-size: 50px;
+}
+
+.weatherInfo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.weather{
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    margin-top: 20px;
+}
+
+.feeling{
+text-align: center;
+color: #fff;
+margin-top: 10px;
+font-size: 17px;
+}
